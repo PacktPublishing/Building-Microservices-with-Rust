@@ -20,3 +20,22 @@ This will execute the main function of the `error_handling` crate. Alternatively
 ```
 $ cargo run
 ```
+
+## Tests
+Each individual crate has tests written, providing further examples of the concepts we've covered per section. You can run all tests from the root workspace with:
+
+```
+$ cargo test
+```
+
+You may execute individual crate tests from the root workspace with:
+
+```
+cargo test --package error_handling
+```
+
+Alternatively, you can also navigate to the `error_handling` directory (for example) and run the tests using:
+
+```
+$ cargo test
+```

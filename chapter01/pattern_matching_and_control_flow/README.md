@@ -20,3 +20,22 @@ This will execute the main function of the `pattern_matching_and_control_flow` c
 ```
 $ cargo run
 ```
+
+## Tests
+Each individual crate has tests written, providing further examples of the concepts we've covered per section. You can run all tests from the root workspace with:
+
+```
+$ cargo test
+```
+
+You may execute individual crate tests from the root workspace with:
+
+```
+cargo test --package pattern_matching_and_control_flow
+```
+
+Alternatively, you can also navigate to the `pattern_matching_and_control_flow` directory (for example) and run the tests using:
+
+```
+$ cargo test
+```
