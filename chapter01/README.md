@@ -45,3 +45,23 @@ If you want to build a specific crate within the workspace, you can use the `--p
 ```
 $ cargo build --package ownership_and_borrowing
 ```
+
+## Tests
+Each individual crate has tests written, providing further examples of the concepts we've covered per section. You can run all tests from the root workspace with:
+
+```
+$ cargo test
+```
+
+## Testing individual crates
+Similar to building individual crates, you may execute individual crate tests from the root workspace with:
+
+```
+cargo test --package ownership_and_borrowing
+```
+
+Alternatively, you can also navigate to the `ownership_and_borrowing` directory (for example) and run the tests using:
+
+```
+$ cargo test
+```
