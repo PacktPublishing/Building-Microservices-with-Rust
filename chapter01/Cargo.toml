@@ -1,0 +1,9 @@
+[workspace]
+members = [ 
+    "data_types_and_structures",
+    "ownership_and_borrowing",
+    "pattern_matching_and_control_flow",
+    "error_handling", 
+    "concurrency_and_multi_threading"
+]
+resolver = "2"
